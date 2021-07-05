@@ -1,0 +1,107 @@
+body {
+    background-color: #DDDDDD;
+    color: #232323;
+  }
+
+  .main  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .small {
+    min-width: 500px;
+  }
+
+  textarea {
+    font-family: "Anonymous Pro";
+    font-size: 2rem;
+    background: #DDDDDD;
+    color: #232323;
+    border: 3px solid #232323;
+    border-radius: 0;
+    resize: none;
+    overflow: hidden;
+    min-height: 10rem;
+    transition: height 0.1s ease;
+  }
+
+  textarea:focus {
+    border: 3px solid #232323;
+    border-radius: 0;
+  }
+
+  button {
+    border-radius: 0;
+    margin-left: 0;
+    background: #DDDDDD;
+    border: 3px solid #131313;
+    color: #131313;
+    font-weight: 700;
+  }
+
+  button:hover {
+    opacity: 1;
+    background: #131313;
+    color: #FAFAFA;
+  }
+
+  canvas {
+    display: none;
+  }
+
+
+  #image {
+    display: none;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* === Footer === */
+  footer {
+      position: absolute;
+      margin: 5rem;
+  }
+
+  #footer-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  #footer-name, #footer-madeby {
+      margin-bottom: 0;
+      margin-top: 0;
+    margin-left: 1rem;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #555555;
+  }
+
+  #footer-name {
+    font-weight: 700;
+  }
+
+  #footer-desc {
+      font-size: 2.5rem;
+  }
+
+  #footer-logo {
+      height: 75px;
+      width: 75px;
+      border-radius: 10px;
+  }
+
+  #footer-link {
+      color: #f5f5f5;
+      text-decoration: none;
+  }
